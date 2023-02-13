@@ -1,5 +1,5 @@
 program: run_single_eval.py
-project: wandb-demo-2
+project: wandb-demo-3
 entity: andrewwarrington
 method: bayes
 metric:
