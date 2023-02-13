@@ -1,0 +1,20 @@
+program: run_single_eval.py
+project: wandb-demo-2
+entity: andrewwarrington
+method: bayes
+metric:
+  name: losses/final_loss
+  goal: minimize
+parameters:
+  bias:
+    min: -5.0
+    max: 5.0
+  linear:
+    min: -5.0
+    max: 5.0
+  quad:
+    min: -5.0
+    max: 5.0
+  cubic:
+    min: -5.0
+    max: 5.0
